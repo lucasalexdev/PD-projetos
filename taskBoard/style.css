@@ -25,6 +25,13 @@ header > h1{
     margin-top: 5px;
 }
 
+.instructions {
+    font-size: 1rem;
+    color: #4b4c4d;
+    margin-top: 10px;
+    text-align: center;
+}
+
 .columns {
     display: flex;
     gap: 15px;
