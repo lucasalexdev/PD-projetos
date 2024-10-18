@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    padding: 30px;
+    user-select: none;
+}
+/*#03223f*/
+header > span {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #4b4c4d;
+}
+
+header > h1{
+    color: #b41926;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.columns {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.column {
+    width: 100%;
+    background-color: #ebeaea;
+    height: 100dvh;
+    border-radius: 8px;
+}
+
+.column__title {
+    color: #03223f;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 20px;
+
+}
+
+.column__cards {
+    padding: 4px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card {
+    position: relative;
+    min-height: 70px;
+    background-color: #fffbfb;
+    border-radius: 5px;
+    border: 1px solid #303131;
+    box-shadow: 0 2px 2px #03223f;
+    padding: 12px 14px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #4b4c4d;
+    margin-bottom: 5px;
+}
+
+.card-content {
+    padding-right: 30px; 
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #b41926;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 4px 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-button:hover {
+    background-color: #c9302c;
+}
+
+.column--highlight {
+    background-color: #deebff;
+    border: 2px solid #62a0f1
+}
+
